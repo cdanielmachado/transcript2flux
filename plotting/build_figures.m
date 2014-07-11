@@ -107,7 +107,7 @@ end
 
 function build_secretion_plots_ishii(condition, methods, dpi)
     
-    reaction_labels = {'Acetate', 'CO_2', 'Ethanol', 'Formate'
+    reaction_labels = {'Acetate', 'CO_2', 'Ethanol', 'Formate', ...
         'Lactate', 'Pyruvate', 'Succinate', 'Growth'};
     
     reaction_ids = {'EX_ac(e)';'EX_co2(e)';'EX_etoh(e)';'EX_for(e)';
