@@ -28,7 +28,7 @@ COBRA_SOLVER = 'gurobi5';
 %initialize cobra
 changeCobraSolver(COBRA_SOLVER, 'all');
 
-%initialize cmpi (just for MADE)
+%initialize cmpi (requires MADE package; see README)
 cmpi.init()
 
 %load model
