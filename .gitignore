@@ -1,0 +1,6 @@
+#
+# Temporary Files
+#
+*~
+
+results/*.mat
